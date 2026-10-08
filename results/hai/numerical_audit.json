@@ -1,0 +1,1738 @@
+{
+  "kind": "arithmetic verification, not replacement results",
+  "reference_scores_changed": false,
+  "cpu_autograd_all_passed": true,
+  "strict_window_tolerance_all_passed": false,
+  "frozen_threshold_changed_points": 3,
+  "direct_sum_calibration_changed_points": 0,
+  "rows": [
+    {
+      "seed": 10,
+      "file": "train4.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.76837158203125e-06,
+      "point_dependency_max_abs": 8.344650268554688e-07,
+      "windows": 86331,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 2.871924920100355e-12,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 7.711482971282054,
+          "direct_sum_cutoff": 7.711482971282054,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 1.0347357418329741,
+          "direct_sum_cutoff": 1.0347357418329741,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 0.48619749173144766,
+          "direct_sum_cutoff": 0.48619749173144766,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "train4.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.76837158203125e-06,
+      "point_dependency_max_abs": 8.344650268554688e-07,
+      "windows": 86331,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 56.66830826178193,
+          "direct_sum_cutoff": 56.6683082645759,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 10.212857138365507,
+          "direct_sum_cutoff": 10.212857138365507,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.826658079400659,
+          "direct_sum_cutoff": 4.826658079400659,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "train5.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.172325134277344e-06,
+      "point_dependency_max_abs": 2.9802322387695312e-06,
+      "windows": 237530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 2.8421709430404007e-13,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 7.711482971282054,
+          "direct_sum_cutoff": 7.711482971282054,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 1.0347357418329741,
+          "direct_sum_cutoff": 1.0347357418329741,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 0.48619749173144766,
+          "direct_sum_cutoff": 0.48619749173144766,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "train5.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.172325134277344e-06,
+      "point_dependency_max_abs": 2.9802322387695312e-06,
+      "windows": 237530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 4.0046870708465576e-08,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 56.66830826178193,
+          "direct_sum_cutoff": 56.6683082645759,
+          "same_frozen_threshold_changed_points": 1,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 10.212857138365507,
+          "direct_sum_cutoff": 10.212857138365507,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.826658079400659,
+          "direct_sum_cutoff": 4.826658079400659,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "train2.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 6.198883056640625e-06,
+      "point_dependency_max_abs": 8.463859558105469e-06,
+      "windows": 201530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 4.5415227134526504e-11,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 7.711482971282054,
+          "direct_sum_cutoff": 7.711482971282054,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 1.0347357418329741,
+          "direct_sum_cutoff": 1.0347357418329741,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 0.48619749173144766,
+          "direct_sum_cutoff": 0.48619749173144766,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "train2.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 6.198883056640625e-06,
+      "point_dependency_max_abs": 8.463859558105469e-06,
+      "windows": 201530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.5739351511001587e-07,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 56.66830826178193,
+          "direct_sum_cutoff": 56.6683082645759,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 10.212857138365507,
+          "direct_sum_cutoff": 10.212857138365507,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.826658079400659,
+          "direct_sum_cutoff": 4.826658079400659,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "train6.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.621246337890625e-05,
+      "point_dependency_max_abs": 4.76837158203125e-07,
+      "windows": 259130,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 5.289902196836671e-12,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 7.711482971282054,
+          "direct_sum_cutoff": 7.711482971282054,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 1.0347357418329741,
+          "direct_sum_cutoff": 1.0347357418329741,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 0.48619749173144766,
+          "direct_sum_cutoff": 0.48619749173144766,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "train6.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.621246337890625e-05,
+      "point_dependency_max_abs": 4.76837158203125e-07,
+      "windows": 259130,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 56.66830826178193,
+          "direct_sum_cutoff": 56.6683082645759,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 10.212857138365507,
+          "direct_sum_cutoff": 10.212857138365507,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.826658079400659,
+          "direct_sum_cutoff": 4.826658079400659,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "test1.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.76837158203125e-06,
+      "point_dependency_max_abs": 1.3113021850585938e-06,
+      "windows": 86330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 3.6982827911202776e-10,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 7.711482971282054,
+          "direct_sum_cutoff": 7.711482971282054,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 1.0347357418329741,
+          "direct_sum_cutoff": 1.0347357418329741,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 0.48619749173144766,
+          "direct_sum_cutoff": 0.48619749173144766,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "test1.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.76837158203125e-06,
+      "point_dependency_max_abs": 1.3113021850585938e-06,
+      "windows": 86330,
+      "strict_window_tolerance_violations": 8879,
+      "maximum_window_difference": 9.313225746154785e-06,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 56.66830826178193,
+          "direct_sum_cutoff": 56.6683082645759,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 10.212857138365507,
+          "direct_sum_cutoff": 10.212857138365507,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.826658079400659,
+          "direct_sum_cutoff": 4.826658079400659,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "test2.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 7.152557373046875e-06,
+      "point_dependency_max_abs": 0.00012350082397460938,
+      "windows": 82730,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 9.142013535079485e-11,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 7.711482971282054,
+          "direct_sum_cutoff": 7.711482971282054,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 1.0347357418329741,
+          "direct_sum_cutoff": 1.0347357418329741,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 0.48619749173144766,
+          "direct_sum_cutoff": 0.48619749173144766,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "test2.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 7.152557373046875e-06,
+      "point_dependency_max_abs": 0.00012350082397460938,
+      "windows": 82730,
+      "strict_window_tolerance_violations": 5952,
+      "maximum_window_difference": 9.573996067047119e-06,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 56.66830826178193,
+          "direct_sum_cutoff": 56.6683082645759,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 10.212857138365507,
+          "direct_sum_cutoff": 10.212857138365507,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.826658079400659,
+          "direct_sum_cutoff": 4.826658079400659,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "test3.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.1444091796875e-05,
+      "point_dependency_max_abs": 3.629922866821289e-05,
+      "windows": 62330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 9.808726747495555e-11,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 7.711482971282054,
+          "direct_sum_cutoff": 7.711482971282054,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 1.0347357418329741,
+          "direct_sum_cutoff": 1.0347357418329741,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 0.48619749173144766,
+          "direct_sum_cutoff": 0.48619749173144766,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "test3.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.1444091796875e-05,
+      "point_dependency_max_abs": 3.629922866821289e-05,
+      "windows": 62330,
+      "strict_window_tolerance_violations": 43856,
+      "maximum_window_difference": 5.978904664516449e-05,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 56.66830826178193,
+          "direct_sum_cutoff": 56.6683082645759,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 10.212857138365507,
+          "direct_sum_cutoff": 10.212857138365507,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.826658079400659,
+          "direct_sum_cutoff": 4.826658079400659,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "test4.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 6.198883056640625e-06,
+      "point_dependency_max_abs": 2.384185791015625e-06,
+      "windows": 129530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 2.6736706182362013e-09,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 7.711482971282054,
+          "direct_sum_cutoff": 7.711482971282054,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 1.0347357418329741,
+          "direct_sum_cutoff": 1.0347357418329741,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 0.48619749173144766,
+          "direct_sum_cutoff": 0.48619749173144766,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "file": "test4.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 6.198883056640625e-06,
+      "point_dependency_max_abs": 2.384185791015625e-06,
+      "windows": 129530,
+      "strict_window_tolerance_violations": 4861,
+      "maximum_window_difference": 4.520639777183533e-06,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 56.66830826178193,
+          "direct_sum_cutoff": 56.6683082645759,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 10.212857138365507,
+          "direct_sum_cutoff": 10.212857138365507,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.826658079400659,
+          "direct_sum_cutoff": 4.826658079400659,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "train4.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.049041748046875e-05,
+      "point_dependency_max_abs": 3.5762786865234375e-07,
+      "windows": 86331,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 6.327490614799203e-13,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 36.38563456885657,
+          "direct_sum_cutoff": 36.385634568856545,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 3.1582180994290474,
+          "direct_sum_cutoff": 3.1582180994290474,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.5197230663512167,
+          "direct_sum_cutoff": 1.5197230663512171,
+          "same_frozen_threshold_changed_points": 2,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "train4.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.049041748046875e-05,
+      "point_dependency_max_abs": 3.5762786865234375e-07,
+      "windows": 86331,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 202.78313130140305,
+          "direct_sum_cutoff": 202.78313130140305,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 15.205945663154125,
+          "direct_sum_cutoff": 15.205945663154125,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.340587170794606,
+          "direct_sum_cutoff": 4.340587170794606,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "train5.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 3.814697265625e-06,
+      "point_dependency_max_abs": 8.344650268554688e-07,
+      "windows": 237530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.197843907396745e-11,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 36.38563456885657,
+          "direct_sum_cutoff": 36.385634568856545,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 3.1582180994290474,
+          "direct_sum_cutoff": 3.1582180994290474,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.5197230663512167,
+          "direct_sum_cutoff": 1.5197230663512171,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "train5.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 3.814697265625e-06,
+      "point_dependency_max_abs": 8.344650268554688e-07,
+      "windows": 237530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 202.78313130140305,
+          "direct_sum_cutoff": 202.78313130140305,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 15.205945663154125,
+          "direct_sum_cutoff": 15.205945663154125,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.340587170794606,
+          "direct_sum_cutoff": 4.340587170794606,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "train2.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.4781951904296875e-05,
+      "point_dependency_max_abs": 1.3113021850585938e-06,
+      "windows": 201530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 3.2319602723263063e-12,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 36.38563456885657,
+          "direct_sum_cutoff": 36.385634568856545,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 3.1582180994290474,
+          "direct_sum_cutoff": 3.1582180994290474,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.5197230663512167,
+          "direct_sum_cutoff": 1.5197230663512171,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "train2.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.4781951904296875e-05,
+      "point_dependency_max_abs": 1.3113021850585938e-06,
+      "windows": 201530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 202.78313130140305,
+          "direct_sum_cutoff": 202.78313130140305,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 15.205945663154125,
+          "direct_sum_cutoff": 15.205945663154125,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.340587170794606,
+          "direct_sum_cutoff": 4.340587170794606,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "train6.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.76837158203125e-06,
+      "point_dependency_max_abs": 7.152557373046875e-07,
+      "windows": 259130,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.8839188347351266e-11,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 36.38563456885657,
+          "direct_sum_cutoff": 36.385634568856545,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 3.1582180994290474,
+          "direct_sum_cutoff": 3.1582180994290474,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.5197230663512167,
+          "direct_sum_cutoff": 1.5197230663512171,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "train6.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.76837158203125e-06,
+      "point_dependency_max_abs": 7.152557373046875e-07,
+      "windows": 259130,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 202.78313130140305,
+          "direct_sum_cutoff": 202.78313130140305,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 15.205945663154125,
+          "direct_sum_cutoff": 15.205945663154125,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.340587170794606,
+          "direct_sum_cutoff": 4.340587170794606,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "test1.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.6927719116210938e-05,
+      "point_dependency_max_abs": 2.384185791015625e-07,
+      "windows": 86330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 2.3921489789024974e-13,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 36.38563456885657,
+          "direct_sum_cutoff": 36.385634568856545,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 3.1582180994290474,
+          "direct_sum_cutoff": 3.1582180994290474,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.5197230663512167,
+          "direct_sum_cutoff": 1.5197230663512171,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "test1.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.6927719116210938e-05,
+      "point_dependency_max_abs": 2.384185791015625e-07,
+      "windows": 86330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 202.78313130140305,
+          "direct_sum_cutoff": 202.78313130140305,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 15.205945663154125,
+          "direct_sum_cutoff": 15.205945663154125,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.340587170794606,
+          "direct_sum_cutoff": 4.340587170794606,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "test2.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 5.364418029785156e-06,
+      "point_dependency_max_abs": 3.5762786865234375e-07,
+      "windows": 82730,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 3.8724266848699784e-12,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 36.38563456885657,
+          "direct_sum_cutoff": 36.385634568856545,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 3.1582180994290474,
+          "direct_sum_cutoff": 3.1582180994290474,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.5197230663512167,
+          "direct_sum_cutoff": 1.5197230663512171,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "test2.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 5.364418029785156e-06,
+      "point_dependency_max_abs": 3.5762786865234375e-07,
+      "windows": 82730,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 202.78313130140305,
+          "direct_sum_cutoff": 202.78313130140305,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 15.205945663154125,
+          "direct_sum_cutoff": 15.205945663154125,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.340587170794606,
+          "direct_sum_cutoff": 4.340587170794606,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "test3.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 9.059906005859375e-06,
+      "point_dependency_max_abs": 1.1920928955078125e-07,
+      "windows": 62330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 6.821210263296962e-13,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 36.38563456885657,
+          "direct_sum_cutoff": 36.385634568856545,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 3.1582180994290474,
+          "direct_sum_cutoff": 3.1582180994290474,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.5197230663512167,
+          "direct_sum_cutoff": 1.5197230663512171,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "test3.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 9.059906005859375e-06,
+      "point_dependency_max_abs": 1.1920928955078125e-07,
+      "windows": 62330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 7.264316082000732e-08,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 202.78313130140305,
+          "direct_sum_cutoff": 202.78313130140305,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 15.205945663154125,
+          "direct_sum_cutoff": 15.205945663154125,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.340587170794606,
+          "direct_sum_cutoff": 4.340587170794606,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "test4.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.049041748046875e-05,
+      "point_dependency_max_abs": 3.5762786865234375e-07,
+      "windows": 129530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.4435499906539917e-08,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 36.38563456885657,
+          "direct_sum_cutoff": 36.385634568856545,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 3.1582180994290474,
+          "direct_sum_cutoff": 3.1582180994290474,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.5197230663512167,
+          "direct_sum_cutoff": 1.5197230663512171,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "file": "test4.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.049041748046875e-05,
+      "point_dependency_max_abs": 3.5762786865234375e-07,
+      "windows": 129530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.2945383787155151e-07,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 202.78313130140305,
+          "direct_sum_cutoff": 202.78313130140305,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 15.205945663154125,
+          "direct_sum_cutoff": 15.205945663154125,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 4.340587170794606,
+          "direct_sum_cutoff": 4.340587170794606,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "train4.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 3.0994415283203125e-06,
+      "point_dependency_max_abs": 0.0003559589385986328,
+      "windows": 86331,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 3.356972477774889e-10,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 22.198707658282594,
+          "direct_sum_cutoff": 22.19870765828258,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 4.6825624119520715,
+          "direct_sum_cutoff": 4.68256241195207,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.9326417636994946,
+          "direct_sum_cutoff": 1.9326417635678728,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "train4.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 3.0994415283203125e-06,
+      "point_dependency_max_abs": 0.0003559589385986328,
+      "windows": 86331,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 594.0719629721716,
+          "direct_sum_cutoff": 594.0719629721716,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 12.898610829375684,
+          "direct_sum_cutoff": 12.898610829375684,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 5.146889026276767,
+          "direct_sum_cutoff": 5.146889026276767,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "train5.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.430511474609375e-06,
+      "point_dependency_max_abs": 2.384185791015625e-07,
+      "windows": 237530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 2.2737367544323206e-12,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 22.198707658282594,
+          "direct_sum_cutoff": 22.19870765828258,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 4.6825624119520715,
+          "direct_sum_cutoff": 4.68256241195207,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.9326417636994946,
+          "direct_sum_cutoff": 1.9326417635678728,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "train5.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.430511474609375e-06,
+      "point_dependency_max_abs": 2.384185791015625e-07,
+      "windows": 237530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.5832483768463135e-08,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 594.0719629721716,
+          "direct_sum_cutoff": 594.0719629721716,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 12.898610829375684,
+          "direct_sum_cutoff": 12.898610829375684,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 5.146889026276767,
+          "direct_sum_cutoff": 5.146889026276767,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "train2.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.76837158203125e-06,
+      "point_dependency_max_abs": 3.337860107421875e-06,
+      "windows": 201530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 3.1669389333188747e-12,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 22.198707658282594,
+          "direct_sum_cutoff": 22.19870765828258,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 4.6825624119520715,
+          "direct_sum_cutoff": 4.68256241195207,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.9326417636994946,
+          "direct_sum_cutoff": 1.9326417635678728,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "train2.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 4.76837158203125e-06,
+      "point_dependency_max_abs": 3.337860107421875e-06,
+      "windows": 201530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 594.0719629721716,
+          "direct_sum_cutoff": 594.0719629721716,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 12.898610829375684,
+          "direct_sum_cutoff": 12.898610829375684,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 5.146889026276767,
+          "direct_sum_cutoff": 5.146889026276767,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "train6.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.6689300537109375e-06,
+      "point_dependency_max_abs": 4.76837158203125e-07,
+      "windows": 259130,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 2.1897362395550957e-12,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 22.198707658282594,
+          "direct_sum_cutoff": 22.19870765828258,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 4.6825624119520715,
+          "direct_sum_cutoff": 4.68256241195207,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.9326417636994946,
+          "direct_sum_cutoff": 1.9326417635678728,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "train6.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.6689300537109375e-06,
+      "point_dependency_max_abs": 4.76837158203125e-07,
+      "windows": 259130,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.6763806343078613e-08,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 594.0719629721716,
+          "direct_sum_cutoff": 594.0719629721716,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 12.898610829375684,
+          "direct_sum_cutoff": 12.898610829375684,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 5.146889026276767,
+          "direct_sum_cutoff": 5.146889026276767,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "test1.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 3.0994415283203125e-06,
+      "point_dependency_max_abs": 1.430511474609375e-06,
+      "windows": 86330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 3.0763586122972697e-13,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 22.198707658282594,
+          "direct_sum_cutoff": 22.19870765828258,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 4.6825624119520715,
+          "direct_sum_cutoff": 4.68256241195207,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.9326417636994946,
+          "direct_sum_cutoff": 1.9326417635678728,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "test1.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 3.0994415283203125e-06,
+      "point_dependency_max_abs": 1.430511474609375e-06,
+      "windows": 86330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 594.0719629721716,
+          "direct_sum_cutoff": 594.0719629721716,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 12.898610829375684,
+          "direct_sum_cutoff": 12.898610829375684,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 5.146889026276767,
+          "direct_sum_cutoff": 5.146889026276767,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "test2.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.430511474609375e-06,
+      "point_dependency_max_abs": 1.1920928955078125e-07,
+      "windows": 82730,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 4.297673328323981e-13,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 22.198707658282594,
+          "direct_sum_cutoff": 22.19870765828258,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 4.6825624119520715,
+          "direct_sum_cutoff": 4.68256241195207,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.9326417636994946,
+          "direct_sum_cutoff": 1.9326417635678728,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "test2.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.430511474609375e-06,
+      "point_dependency_max_abs": 1.1920928955078125e-07,
+      "windows": 82730,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 0.0,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 594.0719629721716,
+          "direct_sum_cutoff": 594.0719629721716,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 12.898610829375684,
+          "direct_sum_cutoff": 12.898610829375684,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 5.146889026276767,
+          "direct_sum_cutoff": 5.146889026276767,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "test3.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 3.814697265625e-06,
+      "point_dependency_max_abs": 1.1920928955078125e-07,
+      "windows": 62330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 3.588684904798356e-12,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 22.198707658282594,
+          "direct_sum_cutoff": 22.19870765828258,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 4.6825624119520715,
+          "direct_sum_cutoff": 4.68256241195207,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.9326417636994946,
+          "direct_sum_cutoff": 1.9326417635678728,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "test3.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 3.814697265625e-06,
+      "point_dependency_max_abs": 1.1920928955078125e-07,
+      "windows": 62330,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 2.691522240638733e-07,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 594.0719629721716,
+          "direct_sum_cutoff": 594.0719629721716,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 12.898610829375684,
+          "direct_sum_cutoff": 12.898610829375684,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 5.146889026276767,
+          "direct_sum_cutoff": 5.146889026276767,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "test4.csv",
+      "method": "prediction",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.5497207641601562e-06,
+      "point_dependency_max_abs": 4.76837158203125e-07,
+      "windows": 129530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.30385160446167e-07,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 22.198707658282594,
+          "direct_sum_cutoff": 22.19870765828258,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 4.6825624119520715,
+          "direct_sum_cutoff": 4.68256241195207,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 1.9326417636994946,
+          "direct_sum_cutoff": 1.9326417635678728,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "file": "test4.csv",
+      "method": "dependency",
+      "cpu_point_error_passed": true,
+      "cpu_graph_passed": true,
+      "point_error_max_abs": 1.5497207641601562e-06,
+      "point_dependency_max_abs": 4.76837158203125e-07,
+      "windows": 129530,
+      "strict_window_tolerance_violations": 0,
+      "maximum_window_difference": 1.1585652828216553e-06,
+      "finite": true,
+      "decision_diagnostics": [
+        {
+          "alpha": 0.005,
+          "old_cutoff": 594.0719629721716,
+          "direct_sum_cutoff": 594.0719629721716,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.01,
+          "old_cutoff": 12.898610829375684,
+          "direct_sum_cutoff": 12.898610829375684,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        },
+        {
+          "alpha": 0.02,
+          "old_cutoff": 5.146889026276767,
+          "direct_sum_cutoff": 5.146889026276767,
+          "same_frozen_threshold_changed_points": 0,
+          "direct_sum_calibration_changed_points": 0
+        }
+      ]
+    }
+  ]
+}

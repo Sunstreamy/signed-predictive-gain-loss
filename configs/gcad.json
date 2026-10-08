@@ -1,0 +1,29 @@
+{
+  "seeds": [
+    10,
+    11,
+    12
+  ],
+  "alphas": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "primary_alpha": 0.01,
+  "device": "mps",
+  "threads": 4,
+  "gcad_commit": "e3e0c039468c105edf798747269ba87c309b573f",
+  "gcad": {
+    "history": 5,
+    "blocks": 6,
+    "ff_dim": 2048,
+    "dropout": 0.0,
+    "learning_rate": 0.0001,
+    "batch": 128,
+    "score_batch": 64,
+    "max_epochs": 100,
+    "patience": 2,
+    "reference_sample_p": 0.2,
+    "sparse_threshold": 0.008
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "S_QTE": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 10.528562082308667,
+      "per_calibration_file": [
+        7.611827146860504,
+        10.528562082308667
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 6.161759410238349,
+      "per_calibration_file": [
+        6.044357982533739,
+        6.161759410238349
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 4.7338364832787665,
+      "per_calibration_file": [
+        4.7338364832787665,
+        4.565706065274862
+      ]
+    }
+  ],
+  "Jr_QTE": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 11.78516873029411,
+      "per_calibration_file": [
+        8.267755739143322,
+        11.78516873029411
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 8.734470423319394,
+      "per_calibration_file": [
+        6.845973161953031,
+        8.734470423319394
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 6.127985910319991,
+      "per_calibration_file": [
+        5.487676718470882,
+        6.127985910319991
+      ]
+    }
+  ],
+  "Dr_QTE": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 3.3969126318286675,
+      "per_calibration_file": [
+        3.11389079955844,
+        3.3969126318286675
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 3.048193345695301,
+      "per_calibration_file": [
+        2.880788086265502,
+        3.048193345695301
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 2.756908860432037,
+      "per_calibration_file": [
+        2.7027918744205746,
+        2.756908860432037
+      ]
+    }
+  ],
+  "PairError-QTE": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 143.07555529873443,
+      "per_calibration_file": [
+        75.1046674514098,
+        143.07555529873443
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 85.5128573191099,
+      "per_calibration_file": [
+        50.10064119897235,
+        85.5128573191099
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 43.63094782194776,
+      "per_calibration_file": [
+        31.963779738903355,
+        43.63094782194776
+      ]
+    }
+  ],
+  "PCA-SPE": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 4.279191785079967,
+      "per_calibration_file": [
+        4.153708508357212,
+        4.279191785079967
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 4.108054000831288,
+      "per_calibration_file": [
+        4.0733576839577665,
+        4.108054000831288
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 3.98806728917819,
+      "per_calibration_file": [
+        3.9652941188777664,
+        3.98806728917819
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+role,run,method,alpha,support,points,alarm_points,fpr,alarm_episodes,episodes_per_hour,longest_alarm_minutes,any_alarm
+audit_A,417,S_QTE,0.01,native,879,163,0.18543799772468714,3,0.06825938566552901,168,True
+audit_A,417,Jr_QTE,0.01,native,879,150,0.17064846416382254,3,0.06825938566552901,174,True
+audit_A,417,Dr_QTE,0.01,native,879,98,0.11149032992036405,4,0.09101251422070535,138,True
+audit_A,417,PairError-QTE,0.01,native,879,157,0.17861205915813425,3,0.06825938566552901,186,True
+audit_A,322,PCA-SPE,0.01,native,895,113,0.12625698324022347,2,0.0446927374301676,174,True

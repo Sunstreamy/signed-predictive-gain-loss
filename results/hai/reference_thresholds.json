@@ -1,0 +1,210 @@
+{
+  "PairError-Q3": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 30231.682728079617,
+      "per_calibration_file": [
+        30231.682728079617,
+        1445.87026789539
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 28846.743970553667,
+      "per_calibration_file": [
+        28846.743970553667,
+        1335.3986514943977
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 25094.630319663316,
+      "per_calibration_file": [
+        25094.630319663316,
+        1167.1910431347337
+      ]
+    }
+  ],
+  "PCA-SPE": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 0.048941958322795465,
+      "per_calibration_file": [
+        0.048941958322795465,
+        0.005327718241351587
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 0.048171017661351456,
+      "per_calibration_file": [
+        0.048171017661351456,
+        0.004522179289227185
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 0.04695350937581688,
+      "per_calibration_file": [
+        0.04695350937581688,
+        0.0038068923520850895
+      ]
+    }
+  ],
+  "GCAD-prediction_s10": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 7.711482971282054,
+      "per_calibration_file": [
+        7.711482971282054,
+        4.933381577539396
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 1.0347357418329741,
+      "per_calibration_file": [
+        1.0347357418329741,
+        0.7944758309520793
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 0.48619749173144766,
+      "per_calibration_file": [
+        0.48619749173144766,
+        0.47766995902260645
+      ]
+    }
+  ],
+  "GCAD-dependency_s10": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 56.66830826178193,
+      "per_calibration_file": [
+        25.50379259046167,
+        56.66830826178193
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 10.212857138365507,
+      "per_calibration_file": [
+        10.212857138365507,
+        7.431380577385426
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 4.826658079400659,
+      "per_calibration_file": [
+        4.826658079400659,
+        2.9137918800115585
+      ]
+    }
+  ],
+  "GCAD-prediction_s11": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 36.38563456885657,
+      "per_calibration_file": [
+        36.38563456885657,
+        8.634604007982082
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 3.1582180994290474,
+      "per_calibration_file": [
+        3.1582180994290474,
+        3.0778860204220315
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 1.5197230663512167,
+      "per_calibration_file": [
+        1.5197230663512167,
+        0.9384711681740949
+      ]
+    }
+  ],
+  "GCAD-dependency_s11": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 202.78313130140305,
+      "per_calibration_file": [
+        202.78313130140305,
+        94.22560561820865
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 15.205945663154125,
+      "per_calibration_file": [
+        15.205945663154125,
+        8.016153025440872
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 4.340587170794606,
+      "per_calibration_file": [
+        4.340587170794606,
+        3.093511486425996
+      ]
+    }
+  ],
+  "GCAD-prediction_s12": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 22.198707658282594,
+      "per_calibration_file": [
+        20.877036927362123,
+        22.198707658282594
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 4.6825624119520715,
+      "per_calibration_file": [
+        4.6825624119520715,
+        4.392900472533202
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 1.9326417636994946,
+      "per_calibration_file": [
+        1.9326417636994946,
+        1.4023710299271923
+      ]
+    }
+  ],
+  "GCAD-dependency_s12": [
+    {
+      "alpha": 0.005,
+      "strict_upper_cutoff": 594.0719629721716,
+      "per_calibration_file": [
+        594.0719629721716,
+        124.16169468220323
+      ]
+    },
+    {
+      "alpha": 0.01,
+      "strict_upper_cutoff": 12.898610829375684,
+      "per_calibration_file": [
+        12.898610829375684,
+        10.137193113565445
+      ]
+    },
+    {
+      "alpha": 0.02,
+      "strict_upper_cutoff": 5.146889026276767,
+      "per_calibration_file": [
+        5.146889026276767,
+        3.4544752975925803
+      ]
+    }
+  ]
+}

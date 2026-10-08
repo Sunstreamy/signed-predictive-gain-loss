@@ -1,0 +1,664 @@
+{
+  "version": "22.04",
+  "revision": "2a814cebc9a66b06c9e5cd545e2d72e65d383737",
+  "files": [
+    {
+      "name": "test1.csv",
+      "bytes": 50536532,
+      "sha256": "19627f5dac40c3a5039e7468cfd6c6e4ccd37a85055671e8c349b6bce5f50ed1",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/test1.csv",
+      "rows": 86400,
+      "event_count": 7,
+      "start_time": "2021-07-10 00:00:01",
+      "end_time": "2021-07-11 00:00:00"
+    },
+    {
+      "name": "test2.csv",
+      "bytes": 46616720,
+      "sha256": "b2ba5d6665deee1c86870a3970417b51a3e640a2cc18b9f8de2d6d8a21979923",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/test2.csv",
+      "rows": 82800,
+      "event_count": 17,
+      "start_time": "2021-07-13 16:00:01",
+      "end_time": "2021-07-14 15:00:00"
+    },
+    {
+      "name": "test3.csv",
+      "bytes": 35066591,
+      "sha256": "f253f1c78a4a4654d843f8f670a24caa7a72ac91e4418b4505009822b3c55940",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/test3.csv",
+      "rows": 62400,
+      "event_count": 10,
+      "start_time": "2021-07-14 17:40:01",
+      "end_time": "2021-07-15 11:00:00"
+    },
+    {
+      "name": "test4.csv",
+      "bytes": 72931406,
+      "sha256": "2d2e99ed3364d75d27ab84f0a6523496f7295decf363c90b8a1b9b84e1070376",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/test4.csv",
+      "rows": 129600,
+      "event_count": 24,
+      "start_time": "2021-07-15 12:00:01",
+      "end_time": "2021-07-17 00:00:00"
+    },
+    {
+      "name": "train1.csv",
+      "bytes": 53190281,
+      "sha256": "63383690ffc5344ba68a019c7000854a4d341a22d743ac035f5207072a197b33",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/train1.csv",
+      "rows": 93601,
+      "event_count": 0,
+      "start_time": "2021-07-11 10:00:00",
+      "end_time": "2021-07-12 12:00:00"
+    },
+    {
+      "name": "train2.csv",
+      "bytes": 114199064,
+      "sha256": "f496991bbef4a6ef5881505aa242fe05cc500b4d5c4cea0d2cf1cf79e4e99285",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/train2.csv",
+      "rows": 201600,
+      "event_count": 0,
+      "start_time": "2021-07-17 00:00:01",
+      "end_time": "2021-07-19 08:00:00"
+    },
+    {
+      "name": "train3.csv",
+      "bytes": 69953332,
+      "sha256": "4910c49dc07cce238e05c449972a30b7588139ef92d36067f32aadd820e63de7",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/train3.csv",
+      "rows": 126000,
+      "event_count": 0,
+      "start_time": "2021-07-23 18:00:01",
+      "end_time": "2021-07-25 05:00:00"
+    },
+    {
+      "name": "train4.csv",
+      "bytes": 47917707,
+      "sha256": "81a1c3a8e1726c92c9253602b8628b72d0508a9c260ff21109433ad2b82687bf",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/train4.csv",
+      "rows": 86401,
+      "event_count": 0,
+      "start_time": "2021-07-26 12:00:00",
+      "end_time": "2021-07-27 12:00:00"
+    },
+    {
+      "name": "train5.csv",
+      "bytes": 131777589,
+      "sha256": "298468467991e73689b61f3cd3975ca21685ef8ba5b5ced4d6a7874f304d9cf7",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/train5.csv",
+      "rows": 237600,
+      "event_count": 0,
+      "start_time": "2021-08-02 15:00:01",
+      "end_time": "2021-08-05 09:00:00"
+    },
+    {
+      "name": "train6.csv",
+      "bytes": 143438209,
+      "sha256": "717b37b7b88b40885cb6994c9fe00d08a941ec0c3c73801e378f84e846ae35d4",
+      "url": "https://media.githubusercontent.com/media/icsdataset/hai/2a814cebc9a66b06c9e5cd545e2d72e65d383737/hai-22.04/train6.csv",
+      "rows": 259200,
+      "event_count": 0,
+      "start_time": "2021-08-06 09:00:01",
+      "end_time": "2021-08-09 09:00:00"
+    }
+  ],
+  "columns": [
+    "timestamp",
+    "P1_B2004",
+    "P1_B2016",
+    "P1_B3004",
+    "P1_B3005",
+    "P1_B4002",
+    "P1_B4005",
+    "P1_B400B",
+    "P1_B4022",
+    "P1_FCV01D",
+    "P1_FCV01Z",
+    "P1_FCV02D",
+    "P1_FCV02Z",
+    "P1_FCV03D",
+    "P1_FCV03Z",
+    "P1_FT01",
+    "P1_FT01Z",
+    "P1_FT02",
+    "P1_FT02Z",
+    "P1_FT03",
+    "P1_FT03Z",
+    "P1_LCV01D",
+    "P1_LCV01Z",
+    "P1_LIT01",
+    "P1_PCV01D",
+    "P1_PCV01Z",
+    "P1_PCV02D",
+    "P1_PCV02Z",
+    "P1_PIT01",
+    "P1_PIT01_HH",
+    "P1_PIT02",
+    "P1_PP01AD",
+    "P1_PP01AR",
+    "P1_PP01BD",
+    "P1_PP01BR",
+    "P1_PP02D",
+    "P1_PP02R",
+    "P1_PP04",
+    "P1_PP04SP",
+    "P1_SOL01D",
+    "P1_SOL03D",
+    "P1_STSP",
+    "P1_TIT01",
+    "P1_TIT02",
+    "P1_TIT03",
+    "P2_24Vdc",
+    "P2_ATSW_Lamp",
+    "P2_AutoGO",
+    "P2_AutoSD",
+    "P2_Emerg",
+    "P2_MASW",
+    "P2_MASW_Lamp",
+    "P2_ManualGO",
+    "P2_ManualSD",
+    "P2_OnOff",
+    "P2_RTR",
+    "P2_SCO",
+    "P2_SCST",
+    "P2_SIT01",
+    "P2_TripEx",
+    "P2_VIBTR01",
+    "P2_VIBTR02",
+    "P2_VIBTR03",
+    "P2_VIBTR04",
+    "P2_VT01",
+    "P2_VTR01",
+    "P2_VTR02",
+    "P2_VTR03",
+    "P2_VTR04",
+    "P3_FIT01",
+    "P3_LCP01D",
+    "P3_LCV01D",
+    "P3_LH01",
+    "P3_LIT01",
+    "P3_LL01",
+    "P3_PIT01",
+    "P4_HT_FD",
+    "P4_HT_PO",
+    "P4_HT_PS",
+    "P4_LD",
+    "P4_ST_FD",
+    "P4_ST_GOV",
+    "P4_ST_LD",
+    "P4_ST_PO",
+    "P4_ST_PS",
+    "P4_ST_PT01",
+    "P4_ST_TT01",
+    "Attack"
+  ],
+  "events": [
+    {
+      "event_id": "test1_A01",
+      "file": "test1.csv",
+      "start": 20481,
+      "end_exclusive": 20672,
+      "start_time": "2021-07-10 05:41:22",
+      "length": 191
+    },
+    {
+      "event_id": "test1_A02",
+      "file": "test1.csv",
+      "start": 26351,
+      "end_exclusive": 26406,
+      "start_time": "2021-07-10 07:19:12",
+      "length": 55
+    },
+    {
+      "event_id": "test1_A03",
+      "file": "test1.csv",
+      "start": 41112,
+      "end_exclusive": 41239,
+      "start_time": "2021-07-10 11:25:13",
+      "length": 127
+    },
+    {
+      "event_id": "test1_A04",
+      "file": "test1.csv",
+      "start": 56351,
+      "end_exclusive": 56406,
+      "start_time": "2021-07-10 15:39:12",
+      "length": 55
+    },
+    {
+      "event_id": "test1_A05",
+      "file": "test1.csv",
+      "start": 60136,
+      "end_exclusive": 60433,
+      "start_time": "2021-07-10 16:42:17",
+      "length": 297
+    },
+    {
+      "event_id": "test1_A06",
+      "file": "test1.csv",
+      "start": 69675,
+      "end_exclusive": 69767,
+      "start_time": "2021-07-10 19:21:16",
+      "length": 92
+    },
+    {
+      "event_id": "test1_A07",
+      "file": "test1.csv",
+      "start": 81319,
+      "end_exclusive": 81387,
+      "start_time": "2021-07-10 22:35:20",
+      "length": 68
+    },
+    {
+      "event_id": "test2_A01",
+      "file": "test2.csv",
+      "start": 2283,
+      "end_exclusive": 2541,
+      "start_time": "2021-07-13 16:38:04",
+      "length": 258
+    },
+    {
+      "event_id": "test2_A02",
+      "file": "test2.csv",
+      "start": 4862,
+      "end_exclusive": 4928,
+      "start_time": "2021-07-13 17:21:03",
+      "length": 66
+    },
+    {
+      "event_id": "test2_A03",
+      "file": "test2.csv",
+      "start": 7983,
+      "end_exclusive": 8029,
+      "start_time": "2021-07-13 18:13:04",
+      "length": 46
+    },
+    {
+      "event_id": "test2_A04",
+      "file": "test2.csv",
+      "start": 16085,
+      "end_exclusive": 16334,
+      "start_time": "2021-07-13 20:28:06",
+      "length": 249
+    },
+    {
+      "event_id": "test2_A05",
+      "file": "test2.csv",
+      "start": 18606,
+      "end_exclusive": 18662,
+      "start_time": "2021-07-13 21:10:07",
+      "length": 56
+    },
+    {
+      "event_id": "test2_A06",
+      "file": "test2.csv",
+      "start": 21486,
+      "end_exclusive": 21663,
+      "start_time": "2021-07-13 21:58:07",
+      "length": 177
+    },
+    {
+      "event_id": "test2_A07",
+      "file": "test2.csv",
+      "start": 27613,
+      "end_exclusive": 27898,
+      "start_time": "2021-07-13 23:40:14",
+      "length": 285
+    },
+    {
+      "event_id": "test2_A08",
+      "file": "test2.csv",
+      "start": 33307,
+      "end_exclusive": 33460,
+      "start_time": "2021-07-14 01:15:08",
+      "length": 153
+    },
+    {
+      "event_id": "test2_A09",
+      "file": "test2.csv",
+      "start": 34806,
+      "end_exclusive": 34969,
+      "start_time": "2021-07-14 01:40:07",
+      "length": 163
+    },
+    {
+      "event_id": "test2_A10",
+      "file": "test2.csv",
+      "start": 41006,
+      "end_exclusive": 41104,
+      "start_time": "2021-07-14 03:23:27",
+      "length": 98
+    },
+    {
+      "event_id": "test2_A11",
+      "file": "test2.csv",
+      "start": 55274,
+      "end_exclusive": 55426,
+      "start_time": "2021-07-14 07:21:15",
+      "length": 152
+    },
+    {
+      "event_id": "test2_A12",
+      "file": "test2.csv",
+      "start": 58271,
+      "end_exclusive": 58327,
+      "start_time": "2021-07-14 08:11:12",
+      "length": 56
+    },
+    {
+      "event_id": "test2_A13",
+      "file": "test2.csv",
+      "start": 66914,
+      "end_exclusive": 66995,
+      "start_time": "2021-07-14 10:35:15",
+      "length": 81
+    },
+    {
+      "event_id": "test2_A14",
+      "file": "test2.csv",
+      "start": 69796,
+      "end_exclusive": 70410,
+      "start_time": "2021-07-14 11:23:17",
+      "length": 614
+    },
+    {
+      "event_id": "test2_A15",
+      "file": "test2.csv",
+      "start": 73032,
+      "end_exclusive": 73201,
+      "start_time": "2021-07-14 12:17:13",
+      "length": 169
+    },
+    {
+      "event_id": "test2_A16",
+      "file": "test2.csv",
+      "start": 78734,
+      "end_exclusive": 78893,
+      "start_time": "2021-07-14 13:52:15",
+      "length": 159
+    },
+    {
+      "event_id": "test2_A17",
+      "file": "test2.csv",
+      "start": 81062,
+      "end_exclusive": 81161,
+      "start_time": "2021-07-14 14:31:03",
+      "length": 99
+    },
+    {
+      "event_id": "test3_A01",
+      "file": "test3.csv",
+      "start": 2468,
+      "end_exclusive": 2817,
+      "start_time": "2021-07-14 18:21:09",
+      "length": 349
+    },
+    {
+      "event_id": "test3_A02",
+      "file": "test3.csv",
+      "start": 9362,
+      "end_exclusive": 9721,
+      "start_time": "2021-07-14 20:16:03",
+      "length": 359
+    },
+    {
+      "event_id": "test3_A03",
+      "file": "test3.csv",
+      "start": 20520,
+      "end_exclusive": 20664,
+      "start_time": "2021-07-14 23:22:01",
+      "length": 144
+    },
+    {
+      "event_id": "test3_A04",
+      "file": "test3.csv",
+      "start": 28866,
+      "end_exclusive": 28958,
+      "start_time": "2021-07-15 01:41:07",
+      "length": 92
+    },
+    {
+      "event_id": "test3_A05",
+      "file": "test3.csv",
+      "start": 30549,
+      "end_exclusive": 30644,
+      "start_time": "2021-07-15 02:09:10",
+      "length": 95
+    },
+    {
+      "event_id": "test3_A06",
+      "file": "test3.csv",
+      "start": 35829,
+      "end_exclusive": 36183,
+      "start_time": "2021-07-15 03:37:10",
+      "length": 354
+    },
+    {
+      "event_id": "test3_A07",
+      "file": "test3.csv",
+      "start": 42909,
+      "end_exclusive": 43061,
+      "start_time": "2021-07-15 05:35:10",
+      "length": 152
+    },
+    {
+      "event_id": "test3_A08",
+      "file": "test3.csv",
+      "start": 47586,
+      "end_exclusive": 47760,
+      "start_time": "2021-07-15 06:53:07",
+      "length": 174
+    },
+    {
+      "event_id": "test3_A09",
+      "file": "test3.csv",
+      "start": 50529,
+      "end_exclusive": 50626,
+      "start_time": "2021-07-15 07:42:10",
+      "length": 97
+    },
+    {
+      "event_id": "test3_A10",
+      "file": "test3.csv",
+      "start": 58331,
+      "end_exclusive": 60356,
+      "start_time": "2021-07-15 09:52:12",
+      "length": 2025
+    },
+    {
+      "event_id": "test4_A01",
+      "file": "test4.csv",
+      "start": 2521,
+      "end_exclusive": 2560,
+      "start_time": "2021-07-15 12:42:02",
+      "length": 39
+    },
+    {
+      "event_id": "test4_A02",
+      "file": "test4.csv",
+      "start": 4802,
+      "end_exclusive": 4891,
+      "start_time": "2021-07-15 13:20:03",
+      "length": 89
+    },
+    {
+      "event_id": "test4_A03",
+      "file": "test4.csv",
+      "start": 7021,
+      "end_exclusive": 7118,
+      "start_time": "2021-07-15 13:57:02",
+      "length": 97
+    },
+    {
+      "event_id": "test4_A04",
+      "file": "test4.csv",
+      "start": 11280,
+      "end_exclusive": 11378,
+      "start_time": "2021-07-15 15:08:01",
+      "length": 98
+    },
+    {
+      "event_id": "test4_A05",
+      "file": "test4.csv",
+      "start": 14871,
+      "end_exclusive": 15377,
+      "start_time": "2021-07-15 16:07:52",
+      "length": 506
+    },
+    {
+      "event_id": "test4_A06",
+      "file": "test4.csv",
+      "start": 19322,
+      "end_exclusive": 19509,
+      "start_time": "2021-07-15 17:22:03",
+      "length": 187
+    },
+    {
+      "event_id": "test4_A07",
+      "file": "test4.csv",
+      "start": 27907,
+      "end_exclusive": 28030,
+      "start_time": "2021-07-15 19:45:08",
+      "length": 123
+    },
+    {
+      "event_id": "test4_A08",
+      "file": "test4.csv",
+      "start": 30546,
+      "end_exclusive": 31220,
+      "start_time": "2021-07-15 20:29:07",
+      "length": 674
+    },
+    {
+      "event_id": "test4_A09",
+      "file": "test4.csv",
+      "start": 38468,
+      "end_exclusive": 38532,
+      "start_time": "2021-07-15 22:41:09",
+      "length": 64
+    },
+    {
+      "event_id": "test4_A10",
+      "file": "test4.csv",
+      "start": 47227,
+      "end_exclusive": 47407,
+      "start_time": "2021-07-16 01:07:08",
+      "length": 180
+    },
+    {
+      "event_id": "test4_A11",
+      "file": "test4.csv",
+      "start": 56107,
+      "end_exclusive": 56207,
+      "start_time": "2021-07-16 03:35:08",
+      "length": 100
+    },
+    {
+      "event_id": "test4_A12",
+      "file": "test4.csv",
+      "start": 57734,
+      "end_exclusive": 57891,
+      "start_time": "2021-07-16 04:02:15",
+      "length": 157
+    },
+    {
+      "event_id": "test4_A13",
+      "file": "test4.csv",
+      "start": 61152,
+      "end_exclusive": 61306,
+      "start_time": "2021-07-16 04:59:13",
+      "length": 154
+    },
+    {
+      "event_id": "test4_A14",
+      "file": "test4.csv",
+      "start": 69611,
+      "end_exclusive": 69689,
+      "start_time": "2021-07-16 07:20:12",
+      "length": 78
+    },
+    {
+      "event_id": "test4_A15",
+      "file": "test4.csv",
+      "start": 76631,
+      "end_exclusive": 76709,
+      "start_time": "2021-07-16 09:17:12",
+      "length": 78
+    },
+    {
+      "event_id": "test4_A16",
+      "file": "test4.csv",
+      "start": 81589,
+      "end_exclusive": 81724,
+      "start_time": "2021-07-16 10:39:50",
+      "length": 135
+    },
+    {
+      "event_id": "test4_A17",
+      "file": "test4.csv",
+      "start": 84152,
+      "end_exclusive": 84697,
+      "start_time": "2021-07-16 11:22:33",
+      "length": 545
+    },
+    {
+      "event_id": "test4_A18",
+      "file": "test4.csv",
+      "start": 91389,
+      "end_exclusive": 91732,
+      "start_time": "2021-07-16 13:23:10",
+      "length": 343
+    },
+    {
+      "event_id": "test4_A19",
+      "file": "test4.csv",
+      "start": 97146,
+      "end_exclusive": 97310,
+      "start_time": "2021-07-16 14:59:07",
+      "length": 164
+    },
+    {
+      "event_id": "test4_A20",
+      "file": "test4.csv",
+      "start": 100622,
+      "end_exclusive": 100712,
+      "start_time": "2021-07-16 15:57:03",
+      "length": 90
+    },
+    {
+      "event_id": "test4_A21",
+      "file": "test4.csv",
+      "start": 106447,
+      "end_exclusive": 106600,
+      "start_time": "2021-07-16 17:34:08",
+      "length": 153
+    },
+    {
+      "event_id": "test4_A22",
+      "file": "test4.csv",
+      "start": 115686,
+      "end_exclusive": 115852,
+      "start_time": "2021-07-16 20:08:07",
+      "length": 166
+    },
+    {
+      "event_id": "test4_A23",
+      "file": "test4.csv",
+      "start": 123436,
+      "end_exclusive": 123552,
+      "start_time": "2021-07-16 22:17:17",
+      "length": 116
+    },
+    {
+      "event_id": "test4_A24",
+      "file": "test4.csv",
+      "start": 126315,
+      "end_exclusive": 126402,
+      "start_time": "2021-07-16 23:05:16",
+      "length": 87
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "license_source": "https://github.com/icsdataset/hai/blob/2a814cebc9a66b06c9e5cd545e2d72e65d383737/README.md#license"
+}

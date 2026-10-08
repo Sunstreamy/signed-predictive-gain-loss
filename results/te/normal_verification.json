@@ -1,0 +1,118 @@
+{
+  "numeric_values": 89611228,
+  "max_absolute_error": 9.549694368615746e-12,
+  "explicit_predictions": 1896,
+  "normal_runs": 1000,
+  "point_decisions": 6616500,
+  "metric_rows": 15000,
+  "event_rows": 15000,
+  "calibration_boundary_disagreements": [
+    {
+      "role": "cal_B",
+      "run": 458,
+      "method": "Dr_QTE",
+      "alpha": 0.01,
+      "count": 2
+    },
+    {
+      "role": "cal_B",
+      "run": 209,
+      "method": "Dr_QTE",
+      "alpha": 0.005,
+      "count": 1
+    },
+    {
+      "role": "cal_B",
+      "run": 209,
+      "method": "PCA-SPE",
+      "alpha": 0.02,
+      "count": 3
+    },
+    {
+      "role": "cal_B",
+      "run": 276,
+      "method": "Jr_QTE",
+      "alpha": 0.02,
+      "count": 3
+    },
+    {
+      "role": "cal_B",
+      "run": 137,
+      "method": "PairError-QTE",
+      "alpha": 0.02,
+      "count": 2
+    },
+    {
+      "role": "cal_B",
+      "run": 385,
+      "method": "S_QTE",
+      "alpha": 0.005,
+      "count": 1
+    },
+    {
+      "role": "cal_B",
+      "run": 385,
+      "method": "Jr_QTE",
+      "alpha": 0.005,
+      "count": 1
+    },
+    {
+      "role": "cal_B",
+      "run": 385,
+      "method": "PairError-QTE",
+      "alpha": 0.005,
+      "count": 2
+    },
+    {
+      "role": "cal_B",
+      "run": 24,
+      "method": "PCA-SPE",
+      "alpha": 0.01,
+      "count": 3
+    }
+  ],
+  "qualified_targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    25,
+    26,
+    28,
+    29,
+    30,
+    32,
+    34,
+    37,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "qualification_targets_checked": 52,
+  "status": "passed_with_reported_calibration_roundoff"
+}

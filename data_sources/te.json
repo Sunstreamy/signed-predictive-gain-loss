@@ -1,0 +1,30 @@
+{
+  "doi": "10.7910/DVN/6C3JR1",
+  "version": "1.0",
+  "files": [
+    {
+      "name": "TEP_FaultFree_Testing.RData",
+      "bytes": 47327663,
+      "md5": "38ad9810fc871026157086ae2c2f0ee9",
+      "sha256": "4f45afafa469793eeb7203fb9ed10ed0b1724c73c9c95537f15a0889ade0ebd4",
+      "file_id": 3031240,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/3031240"
+    },
+    {
+      "name": "TEP_FaultFree_Training.RData",
+      "bytes": 24678017,
+      "md5": "ec126484534331f85001d8c4ebce6d17",
+      "sha256": "12d1055b852763fac09ef36bd7c9612a800c8bf7b6f75f344d12119206f9e940",
+      "file_id": 3031241,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/3031241"
+    },
+    {
+      "name": "TEP_Faulty_Testing.RData",
+      "bytes": 836882037,
+      "md5": "556bdb64c83021bc0c5f92e427753565",
+      "sha256": "c2f1aabc77498efda4d5f9ad81ecc829e2fcd98752b84cf5b2a06558cabacc36",
+      "file_id": 3031243,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/3031243"
+    }
+  ]
+}

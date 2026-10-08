@@ -1,0 +1,71 @@
+{
+  "roles": {
+    "fit": [
+      "train1.csv",
+      "train3.csv"
+    ],
+    "calibration": [
+      "train4.csv",
+      "train5.csv"
+    ],
+    "development_normal": [
+      "train2.csv",
+      "train6.csv"
+    ],
+    "development_attack": [
+      "test4.csv"
+    ],
+    "holdout": [
+      "test1.csv",
+      "test2.csv",
+      "test3.csv"
+    ]
+  },
+  "reserved": [
+    "test1.csv",
+    "test2.csv",
+    "test3.csv"
+  ],
+  "seed": 10,
+  "lags": [
+    0,
+    1,
+    4,
+    16
+  ],
+  "window": 64,
+  "consecutive": 3,
+  "channels": 86,
+  "hidden": 32,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.999,
+  "adam_epsilon": 1e-08,
+  "batch_size": 256,
+  "fit_examples_per_file": 4096,
+  "scale_floor": 1e-08,
+  "alphas": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "primary_alpha": 0.01,
+  "prediction_chunk": 512,
+  "ridge_lambda": 0.01,
+  "projection_rcond": 1e-10,
+  "feature_variance_floor": 1e-12,
+  "eligibility_relative_gain": 0.05,
+  "eligibility_positive_block_fraction": 0.6,
+  "eligibility_min_self_mse": 1e-06,
+  "gain_block_seconds": 3600,
+  "gain_numerical_tolerance": 1e-10,
+  "chunk": 4096,
+  "source_revision": "2a814cebc9a66b06c9e5cd545e2d72e65d383737",
+  "qualified_targets": [
+    62,
+    63,
+    74
+  ],
+  "qualification_checks": "Both opposite-file correction checks and both pooled-fit-file checks."
+}

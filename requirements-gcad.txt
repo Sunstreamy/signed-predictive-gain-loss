@@ -1,0 +1,3 @@
+-r requirements-core.txt
+torch==2.14.0
+scikit-learn==1.6.1

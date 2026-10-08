@@ -1,0 +1,10 @@
+{
+  "numeric_values": 110140600,
+  "max_absolute_error": 0.169921875,
+  "point_decisions": 13233000,
+  "event_rows": 30000,
+  "metric_rows": 60000,
+  "runs": 1000,
+  "explicit_predictions": 4800,
+  "status": "passed"
+}

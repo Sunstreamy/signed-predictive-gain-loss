@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "summary_rows": 690,
+  "partition_rows": 552,
+  "family_bootstrap_intervals": 30,
+  "independent_event_counts": true
+}

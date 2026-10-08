@@ -1,0 +1,83 @@
+[
+  {
+    "alpha": 0.005,
+    "method": "S_Q3",
+    "strict_upper_cutoff": 61.16331500660118,
+    "per_calibration_file": [
+      61.16331500660118,
+      17.335915656013757
+    ]
+  },
+  {
+    "alpha": 0.005,
+    "method": "Jr_Q3",
+    "strict_upper_cutoff": 171.59307642449053,
+    "per_calibration_file": [
+      171.59307642449053,
+      37.24263426017666
+    ]
+  },
+  {
+    "alpha": 0.005,
+    "method": "Dr_Q3",
+    "strict_upper_cutoff": 3.86682059854693,
+    "per_calibration_file": [
+      3.120398629993687,
+      3.86682059854693
+    ]
+  },
+  {
+    "alpha": 0.01,
+    "method": "S_Q3",
+    "strict_upper_cutoff": 44.09802939383485,
+    "per_calibration_file": [
+      44.09802939383485,
+      16.083692947512397
+    ]
+  },
+  {
+    "alpha": 0.01,
+    "method": "Jr_Q3",
+    "strict_upper_cutoff": 167.6148455917478,
+    "per_calibration_file": [
+      167.6148455917478,
+      35.741777273053565
+    ]
+  },
+  {
+    "alpha": 0.01,
+    "method": "Dr_Q3",
+    "strict_upper_cutoff": 3.603742676382635,
+    "per_calibration_file": [
+      2.115821945631569,
+      3.603742676382635
+    ]
+  },
+  {
+    "alpha": 0.02,
+    "method": "S_Q3",
+    "strict_upper_cutoff": 41.812387448942935,
+    "per_calibration_file": [
+      41.812387448942935,
+      14.296239522946502
+    ]
+  },
+  {
+    "alpha": 0.02,
+    "method": "Jr_Q3",
+    "strict_upper_cutoff": 156.40101882235055,
+    "per_calibration_file": [
+      156.40101882235055,
+      33.291971940560536
+    ]
+  },
+  {
+    "alpha": 0.02,
+    "method": "Dr_Q3",
+    "strict_upper_cutoff": 3.2953291905950675,
+    "per_calibration_file": [
+      1.9252966366843791,
+      3.2953291905950675
+    ]
+  }
+]

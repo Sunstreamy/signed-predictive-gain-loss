@@ -1,0 +1,30 @@
+{
+  "input_and_normal_freezes_unchanged": true,
+  "raw_checks": {
+    "simple_scores": {
+      "counts": {
+        "pca_points": 88,
+        "pair_points": 264,
+        "graph_points": 0,
+        "rolling_windows": 216
+      },
+      "maximum_absolute_errors": {
+        "pca": 8.326672684688674e-17,
+        "pair": 5.820766091346741e-11,
+        "graph": 0.0,
+        "prediction": 0.0
+      }
+    },
+    "gcad_numerical_audit": "numerical_audit.json",
+    "gcad_strict_window_tolerance_passed": false,
+    "scope": "Decision/metric verification; not a pass of all strict raw-score checks."
+  },
+  "decisions_checked": 37798617,
+  "direct_tail_counts": 616,
+  "metric_rows": 1056,
+  "event_rows": 3828,
+  "episodes": 7742,
+  "event_sets": 198,
+  "passed": true,
+  "scope": "Archived decisions, metrics and simple baseline arithmetic."
+}
